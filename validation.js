@@ -1,6 +1,8 @@
 
 $(function() {
     localStorage.setItem('a','a');
+	localStorage.setItem('test2017','test2017');
+	
 
 
     $.validator.addMethod('strongPassword', function(value, element) {
